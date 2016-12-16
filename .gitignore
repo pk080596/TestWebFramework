@@ -1,2 +1,4 @@
-/empenv/*
+empenv
 *.pyc
+staticfiles
+.env

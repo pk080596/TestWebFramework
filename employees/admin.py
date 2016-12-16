@@ -1,4 +1,6 @@
 from django.contrib import admin
-from .models import Employees
+from .models import Employees, Salaries, Titles
 
-admin.site.register(Employees)
+models = [Employees, Salaries, Titles]
+
+admin.site.register(models)

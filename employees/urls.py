@@ -5,6 +5,8 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'employees', views.EmployeesViewSet)
+router.register(r'salaries', views.SalariesViewSet)
+router.register(r'titles', views.TitlesViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),

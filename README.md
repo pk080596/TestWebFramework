@@ -1,1 +1,1 @@
-Python Django with MySQL
+Python Django with PostgreSQL

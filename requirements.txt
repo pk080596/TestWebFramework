@@ -27,3 +27,4 @@ static3==0.7.0
 termcolor==1.1.0
 traitlets==4.3.1
 wcwidth==0.1.7
+whitenoise==3.2.2
